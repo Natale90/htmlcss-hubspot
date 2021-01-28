@@ -11,12 +11,12 @@
   clear: both;
 }
 
-/* HEADER'S ISTRUCTOIN */
+/* HEADER'S ISTRUCTOINS */
 header{
-  background-color: pink;
+
 }
 
-/* NAV'S ISTRUCTIONS */
+/* NAVBAR'S ISTRUCTIONS */
 /* ---------------------------------------------------------- */
 nav{
   width: 80%;
@@ -30,7 +30,7 @@ nav{
 .nav_section.upside{
   /* regole di debug */
   height: 60px;
-  background-color: lightgrey;
+  background-color: #f5f8fa;
   border-bottom: 1px solid black;
 }
 
@@ -40,8 +40,15 @@ nav{
   line-height: 60px;
   /* regole di debug */
   border:1px solid red;
+}
 
+.nav_top_left span{
+  margin-right: 20px;
+}
 
+.nav_top_left span:nth-of-type(2){
+  border-left: 1px solid black;
+  padding-left: 10px;
 }
 
 .nav_top_right{
@@ -52,11 +59,28 @@ nav{
   border:1px solid green;
 }
 
+.nav_top_right a{
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.nav_top_right > a:first-of-type{
+  border:1px solid #ff7a59;
+  border-radius: 4px;
+  padding: 6px 15px;
+}
+
+.nav_top_right > a:nth-of-type(2){
+  background-color: #ff7a59;
+  border-radius: 4px;
+  padding: 6px 15px;
+  color: white;
+}
+
 /* parte bassa della navbar............... */
 .nav_section.downside{
   /* regole di debug */
   height: 60px;
-  background-color: pink;
 }
 
 .nav_bottom_left{
@@ -76,4 +100,14 @@ nav{
 
 .nav_bottom_right ul li{
   display: inline-block;
+}
+
+.nav_bottom_right ul li a{
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+.nav_bottom_right ul li i{
+  margin-left: 10px;
 }
