@@ -1,0 +1,53 @@
+/* PAGE'S MAIN STYLE ISTRUCTIONS */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* HEADER'S ISTRUCTOIN */
+header{
+  background-color: pink;
+}
+
+/* NAV'S ISTRUCTIONS */
+/* ---------------------------------------------------------- */
+nav{
+  width: 80%;
+  margin: auto;
+  /* regole di debug */
+  border:1px solid black;
+  /* height: 100px; */
+}
+
+/* parte alta della navbar ...............*/
+.nav_section.upside{
+  /* regole di debug */
+  /* height: 100px; */
+  background-color: lightgrey;
+  border-bottom: 1px solid black;
+}
+
+.nav_top_left{
+  border:1px solid red;
+  float: left;
+}
+
+.nav_top_right{
+  float: right;
+  /* regole di degub */
+  border:1px solid green;
+}
+
+/* parte bassa della navbar............... */
+.nav_section.downside{
+  /* regole di debug */
+  height: 100px;
+  background-color: pink;
+}
