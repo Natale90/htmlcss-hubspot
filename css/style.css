@@ -29,18 +29,25 @@ nav{
 /* parte alta della navbar ...............*/
 .nav_section.upside{
   /* regole di debug */
-  /* height: 100px; */
+  height: 60px;
   background-color: lightgrey;
   border-bottom: 1px solid black;
 }
 
 .nav_top_left{
-  border:1px solid red;
   float: left;
+  height: 60px;
+  line-height: 60px;
+  /* regole di debug */
+  border:1px solid red;
+
+
 }
 
 .nav_top_right{
   float: right;
+  height: 60px;
+  line-height: 60px;
   /* regole di degub */
   border:1px solid green;
 }
@@ -48,6 +55,25 @@ nav{
 /* parte bassa della navbar............... */
 .nav_section.downside{
   /* regole di debug */
-  height: 100px;
+  height: 60px;
   background-color: pink;
+}
+
+.nav_bottom_left{
+  height: 60px;
+  line-height: 60px;
+  float: left;
+}
+.nav_bottom_left img{
+  vertical-align: middle;
+}
+
+.nav_bottom_right{
+  float: right;
+  height: 60px;
+  line-height: 60px;
+}
+
+.nav_bottom_right ul li{
+  display: inline-block;
 }
