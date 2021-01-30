@@ -27,10 +27,11 @@ body{
 
 /* NAVBAR'S ISTRUCTIONS */
 /* ---------------------------------------------------------- */
+
 nav{
   width: 80%;
-  margin: auto;
   /* regole di debug */
+  margin: auto;
   border:1px solid black;
   /* height: 100px; */
 }
@@ -138,7 +139,7 @@ nav{
 
 .jumbotext{
   width: 40%;
-  margin-top: 150px;
+  margin-top: 120px;
   /* regole di debug */
   border:1px solid black;
 }
@@ -155,4 +156,31 @@ nav{
 .greenspot{
   height: 100px;
   background-color: #a8ffcb;
+}
+
+/* ISTRUZIONI DEL MAIN----------------------------------------------- */
+
+/* istruzioni sezioni-------- */
+.business_details{
+  /* regole di debug */
+  height: 1200px;
+  background-color: grey;
+}
+
+.comunity{
+  /* regole di debug */
+  height: 700px;
+  background-color: lightgreen;
+}
+
+.clients{
+/* }regole debug */
+  height: 600px;
+  background-color: lightblue;
+}
+
+footer{
+  /* regole debug */
+  height: 500px;
+  background-color: #2d3e50;
 }
