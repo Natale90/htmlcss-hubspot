@@ -27,11 +27,20 @@ body{
 
 /* NAVBAR'S ISTRUCTIONS */
 /* ---------------------------------------------------------- */
+.nav_container{
+  width:100%;
+  position: fixed;
+  top:0px;
+  z-index: 999;
+  /* regole di debug */
+  border:3px solid red;
+}
+
 
 nav{
   width: 80%;
+    margin: auto;
   /* regole di debug */
-  margin: auto;
   border:1px solid black;
   /* height: 100px; */
 }
@@ -95,6 +104,7 @@ nav{
 .nav_section.downside{
   /* regole di debug */
   height: 60px;
+  background-color: white;
 }
 
 .nav_bottom_left{
@@ -130,6 +140,7 @@ nav{
 /* JUMBOTRON INSTRUCTION ------------------------------------------*/
 .jumbotron{
   height: 570px;
+  margin-top: 120px;
   /* background-color: lightblue; */
   background-image: url(../img/img-jumbotron/jumbotron.png);
   background-size: cover;
