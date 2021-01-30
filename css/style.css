@@ -18,8 +18,16 @@ body{
 .container{
   width: 80%;
   margin: auto;
+  padding-top: 20px;
+  /* regole di debug */
   border: 3px solid yellow;
-  background:none;
+
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* HEADER'S ISTRUCTOINS */
@@ -171,11 +179,11 @@ nav{
 
 /* ISTRUZIONI DEL MAIN----------------------------------------------- */
 
-/* istruzioni sezioni-------- */
+/* istruzioni generiche sezioni-------- */
 .business_details{
   /* regole di debug */
   height: 1200px;
-  background-color: grey;
+  background-color: #f5f8fa;
 }
 
 .comunity{
@@ -189,6 +197,62 @@ nav{
   height: 600px;
   background-color: lightblue;
 }
+
+/* parte alta della PRIMA SEZIONE busines details */
+.logo_section{
+  text-align: center;
+  /* regole di debug */
+  /* height: 150px; */
+  border: 1px solid black;
+}
+
+.cubo{
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  /* regole debug */
+  border: 1px solid red;
+}
+
+.cubo img{
+  width: 100%;
+}
+
+/* parte centrale della PRIMA SEZIONE business details */
+.row{
+  background-color: white;
+  margin: 20px 0;
+  /* regole di debug */
+  height: 300px;
+  border: 1px solid black;
+}
+
+.column{
+  /* relole di debug */
+  border: 1px solid red;
+  height: 100%;
+}
+
+.popular_fetures .column:first-child{
+  width: 30%;
+  float: left;
+}
+
+.popular_fetures .column:last-child{
+  width: 30%;
+  float: left;
+}
+
+.popular_fetures .column:nth-child(2){
+  width: 30%;
+  margin: 0 5%;
+  float: left;
+}
+
+
+
+
+
 
 footer{
   /* regole debug */
