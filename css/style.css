@@ -236,9 +236,10 @@ nav{
 }
 
 .clients{
+  color: #33475b;
+  padding: 64px 0;
 /* }regole debug */
-  height: 600px;
-  background-color: lightblue;
+  /* height: 600px; */
 }
 
 /* parte alta della PRIMA SEZIONE busines details */
@@ -435,6 +436,61 @@ nav{
   font-size: 15px;
   vertical-align: middle;
 }
+
+/* INIZIO TERZA SEZIONE "CLIENTS" */
+
+/* parte alta della sezione clients */
+.clients_top .left_side{
+  width: 30%;
+  text-align: center;
+  padding: 40px;
+  /* regole di debug */
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+}
+
+.clients_top .right_side{
+  width: 70%;
+  /* regole di debug */
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+}
+
+.clients_logo_img{
+  width: calc(100% / 4);
+  float: left;
+  /* regole di debug */
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* parte bassa della sezione clients */
+.clients_bottom{
+  margin-top: 50px;
+}
+.clients_bottom.left_side, .clients_bottom.right_side{
+  float: left;
+  /* regole di debug */
+  height: 400px;
+  border: 1px solid  black;
+}
+
+.clients_bottom.left_side{
+  width: 70%;
+}
+
+.clients_bottom.right_side{
+  width: 30%;
+}
+
+.clients_bottom.right_side img{
+  width: 100%;
+  height: auto;
+}
+
+
 
 footer{
   /* regole debug */
