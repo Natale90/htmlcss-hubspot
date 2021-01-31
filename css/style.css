@@ -229,9 +229,10 @@ nav{
 .comunity{
   color: white;
   text-align: center;
+  padding: 100px 0;
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   /* regole di debug */
-  height: 700px;
+  /* height: 700px; */
 }
 
 .clients{
@@ -396,6 +397,8 @@ nav{
 
 
 /* istruzioni sezione COMUNITY ---------------------------*/
+
+
 .section_comunity_header p{
   margin: 20px 0 60px;
 }
@@ -418,6 +421,19 @@ nav{
   height: 100%;
   border: 1px solid purple;
   float: left;
+}
+
+.card_img, .card_data, .card_title{
+  height: calc(100% /3);
+}
+
+.section_comunity_grid .grid_row .card_data h2{
+  font-size: 45px;
+}
+
+.card_data h2 span{
+  font-size: 15px;
+  vertical-align: middle;
 }
 
 footer{
