@@ -44,6 +44,11 @@ body{
   background-color: rgba(255, 122, 89, 0.5);
 }
 
+.button_description{
+  margin-top: 50px;
+  font-weight: lighter;
+}
+
 p{
   line-height: 25px;
 }
@@ -460,10 +465,16 @@ nav{
 
 .clients_logo_img{
   width: calc(100% / 4);
+  padding: 10px;
   float: left;
   /* regole di debug */
   height: 100px;
   border: 1px solid black;
+}
+
+.clients_logo_img img{
+  width: 70%;
+  margin: auto;
 }
 
 /* parte bassa della sezione clients */
@@ -473,16 +484,22 @@ nav{
 .clients_bottom.left_side, .clients_bottom.right_side{
   float: left;
   /* regole di debug */
-  height: 400px;
+  /* height: 400px; */
   border: 1px solid  black;
 }
 
 .clients_bottom.left_side{
   width: 70%;
+  padding-top: 20px;
+}
+
+.clients_bottom.left_side p{
+  margin: 30px 200px 80px 0;
 }
 
 .clients_bottom.right_side{
   width: 30%;
+  padding: 20px;
 }
 
 .clients_bottom.right_side img{
