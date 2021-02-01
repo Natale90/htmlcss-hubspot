@@ -58,10 +58,6 @@ hr{
   background-color: #33475b;
 }
 
-i{
-  color: #ff7a59;
-}
-
 h1{
   font-size: 45px;
 }
@@ -247,6 +243,10 @@ nav{
 /* }regole debug */
   /* height: 600px; */
 }
+
+/* .comunity i{
+  color: #ff7a59;
+} */
 
 /* parte alta della PRIMA SEZIONE busines details */
 .logo_section{
@@ -515,15 +515,16 @@ nav{
 
 footer{
   color: #cbd6e2;
+  background-color: #2d3e50;
+  padding-bottom: 30px;
   /* regole debug */
   /* color: #0091ae; colore per l'hover */
   /* height: 500px; */
-  background-color: #2d3e50;
 }
 
 .footer_row{
   /* regole di debug */
-  height: 500px;
+  /* height: 500px; */
   border:1px solid white;
 }
 
@@ -560,7 +561,7 @@ footer{
   color: #2d3e50;
   background-color: #cbd6e2;
   padding: 8px 20px;
-  margin: 35px 0;
+  margin: 35px auto;
   border-radius: 6px;
 }
 
@@ -568,7 +569,45 @@ footer{
   margin-top: 35px;
 }
 
-.footer_row .footer_column i{
+.footer_row .footer_column a{
   color: #cbd6e2;
   margin-right: 25px;
+}
+
+.languages{
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+.languages ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.languages ul li a{
+  color: #cbd6e2;
+  text-decoration: none;
+}
+
+
+footer .footer_logo{
+  float:left;
+}
+
+footer .legal_and_privacy{
+  float: right;
+}
+
+.legal_and_privacy a{
+  color:#cbd6e2;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+
+.legal_and_privacy a:hover{
+  color: #0091ae;
+  text-decoration: underline;
+  text-decoration: none;
 }
