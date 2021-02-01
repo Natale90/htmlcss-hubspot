@@ -614,11 +614,10 @@ footer .legal_and_privacy{
 
 
 
-/* ISTRUZIONI CHATBOT */
+/* ISTRUZIONI CHATBOT -----------------------------------------------*/
 
 .chat_bot_window{
   width: 300px;
-  height: 400px;
   font-weight: lighter;
   /* border: 3px solid grey; */
   /* background-color: rgba(255, 255, 255, 0.2); */
@@ -633,9 +632,23 @@ footer .legal_and_privacy{
 .chat_bot_window_header{
   height: 60px;
   color: white;
-  padding: 10px;
+  padding: 15px 8px;
   border-radius: 10px 10px 0 0;
-  background-color: rgb(66, 91, 118);
+  background-color: rgb(66, 91, 118);7
+}
+
+.chat_logo, .chat_title{
+  display: inline-block;
+  height: 30px;
+  line-height: 25px;
+}
+
+.chat_logo{
+  margin:0 8px;
+}
+
+.chat_title{
+  vertical-align: top;
 }
 
 .help_chat .fas.fa-comments{
@@ -651,17 +664,26 @@ footer .legal_and_privacy{
 }
 
 .message_space{
-  height: 60%;
+  height: 200px;
   padding: 10px 3px;
   background-color: white;
   font-size: 12px;
+  overflow: auto;
 }
 
-.hubspot_answer span{
-  color: white;
-  background-color: grey;
+.robot_smile{
+  width: auto;
+  height: 28px;
+}
+
+.hubspot_answer{
+  width: 80%;
+  background-color: #f5f8fa;
   padding: 5px;
   border-radius: 5px;
+  color: black;
+  line-height: 20px;
+  margin:5px 0 5px 10px;
 }
 
 .user_question{
@@ -676,25 +698,57 @@ footer .legal_and_privacy{
   border-radius: 5px;
 }
 
+.message_space ul li a{
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  border:1px solid black;
+  border-radius: 3px;
+}
+
+.message_space ul li{
+  margin: 15px 0 15px 10px;
+  list-style-type: none;
+}
+
+.message_space ul li:hover a{
+  background-color: #f5f8fa;
+}
+
 .help_chat .fas.fa-comments:hover{
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 5px 10px 18px #888888;
 }
 
 .help_chat:hover .chat_bot_window{
   display:block;
 }
 
-
 .chat_bot_window_footer{
-  height: calc(100% - (60% + 60px));
   color: white;
   background-color: rgb(66, 91, 118);
   border-radius: 0 0 10px 10px;
+  padding: 8px 8px;
 }
 
-.chat_policy{
+.chat_policy p{
   font-size: 10px;
+  line-height: 15px;
   padding-top: 5px;
+}
+
+.chat_bot_window_footer input{
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color:#f5f8fa;
+  width: 85%;
+  margin: 10px 5px 10px 10px;
+}
+
+.chat_bot_window_footer i{
+  width: auto;
+  height: 10px;
+  color: #f5f8fa;
 }
 
 .last_cta{
