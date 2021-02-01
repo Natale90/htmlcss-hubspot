@@ -611,3 +611,99 @@ footer .legal_and_privacy{
   text-decoration: underline;
   text-decoration: none;
 }
+
+
+
+/* ISTRUZIONI CHATBOT */
+
+.chat_bot_window{
+  width: 300px;
+  height: 400px;
+  font-weight: lighter;
+  /* border: 3px solid grey; */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  position: fixed;
+  bottom: 125px;
+  right:20px;
+  border-radius: 10px;
+  z-index: 999;
+  display: none;
+}
+
+.chat_bot_window_header{
+  height: 60px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(66, 91, 118);
+}
+
+.help_chat .fas.fa-comments{
+  font-size: 40px;
+  color: white;
+  background-color: rgb(66, 91, 118);
+  padding: 18px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 999;
+}
+
+.message_space{
+  height: 60%;
+  padding: 10px 3px;
+  background-color: white;
+  font-size: 12px;
+}
+
+.hubspot_answer span{
+  color: white;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.user_question{
+  text-align: right;
+  margin:15px 0px;
+}
+
+.user_question span{
+  color: white;
+  background-color: #2d3e50;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.help_chat .fas.fa-comments:hover{
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.help_chat:hover .chat_bot_window{
+  display:block;
+}
+
+
+.chat_bot_window_footer{
+  height: calc(100% - (60% + 60px));
+  color: white;
+  background-color: rgb(66, 91, 118);
+  border-radius: 0 0 10px 10px;
+}
+
+.chat_policy{
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.last_cta{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.last_cta a{
+  color:#ff7a59;
+  text-decoration: none;
+}
