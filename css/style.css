@@ -220,7 +220,7 @@ nav{
 
 /* ISTRUZIONI DEL MAIN----------------------------------------------- */
 
-/* istruzioni generiche sezioni-------- */
+/* istruzioni generiche sezioni---------------------------- */
 .business_details{
   /* regole di debug */
   /* height: 1200px; */
@@ -243,10 +243,7 @@ nav{
 /* }regole debug */
   /* height: 600px; */
 }
-
-/* .comunity i{
-  color: #ff7a59;
-} */
+ /* fine istruzioni generiche sezioni-------------------------- */
 
 /* parte alta della PRIMA SEZIONE busines details */
 .logo_section{
@@ -283,11 +280,10 @@ nav{
 .row{
   background-color: white;
   margin: 20px 0;
-  padding-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
   /* regole di debug */
   /* height: 300px; */
   border: 1px solid black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
 }
 
 .column{
@@ -297,7 +293,10 @@ nav{
   /* relole di debug */
   border: 1px solid red;
   /* height: 100%; */
+}
 
+.column i{
+  color: #ff7a59;
 }
 /* free_hubspot row istruction---------------------------- */
 
@@ -376,7 +375,7 @@ nav{
 /* istruzioni prima sezione, ultima row */
 .row.popular_fetures .column{
   text-align: center;
-  padding: 0 20px;
+  padding: 0 20px 40px 20px;
 }
 
 .row.popular_fetures .column h3{
