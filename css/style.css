@@ -456,11 +456,11 @@ nav{
 }
 
 .clients_top .right_side{
-  width: 70%;
+  width: 60%;
   /* regole di debug */
   /* height: 200px; */
   border: 1px solid black;
-  float: left;
+  float: right;
 }
 
 .clients_logo_img{
@@ -476,8 +476,9 @@ nav{
 
 .clients_logo_img img{
   width: 60%;
-  height: 23px;
+  height: 60px;
   margin: auto;
+  object-fit: contain;
 }
 
 /* parte bassa della sezione clients */
