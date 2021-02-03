@@ -189,6 +189,10 @@ nav{
   z-index: 999;
 }
 
+.dropdown h4{
+  font-weight:normal;
+}
+
 .software_dropdown .dropdown{
   float: left;
 }
@@ -201,16 +205,6 @@ nav{
   padding: 10px;
 }
 
-.nav_bottom_right ul li .software_dropdown .dropdown.left a, h4{
-  line-height: 0;
-  margin: 20px 0;
-}
-
-.nav_bottom_right ul li .software_dropdown .dropdown.left a{
-  font-weight: lighter;
-  line-height: 0px;
-}
-
 .software_dropdown .dropdown.center, .dropdown.right{
   width: calc((100% - 25%) / 2);
   height: 100%;
@@ -219,13 +213,19 @@ nav{
   padding: 10px;
 }
 
-
 .dropdown_top, .dropdown_bottom{
   width: 90%;
+  height: calc(50% - 40px);
   margin:20px auto;
+  line-height: 16px;
+  font-weight: lighter;
   border:1px solid black;
+  text-align: left;
 }
 
+.dropdown_text > a{
+  margin-left: none;
+}
 
 /* JUMBOTRON INSTRUCTION ------------------------------------------*/
 .jumbotron{
