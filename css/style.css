@@ -93,18 +93,33 @@ nav{
   line-height: 60px;
 }
 
-.nav_top_left a{
+.nav_top_left ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav_top_left ul li .fa-globe-europe{
+  margin-right: 8px;
+}
+
+.nav_top_left ul li .fa-angle-down{
+  margin-left: 8px;
+}
+
+.nav_top_left li a{
   margin-right: 20px;
   text-decoration: none;
   color:black;
 }
 
-.nav_top_left a:nth-of-type(2){
+.nav_top_left ul li:nth-of-type(2) a{
   border-left: 1px solid black;
   padding-left: 10px;
   text-decoration: none;
   color:black;
 }
+
+
 
 .nav_top_right{
   float: right;
@@ -247,8 +262,8 @@ nav{
   height: calc(50% - 40px);
   margin:20px auto;
   font-weight: lighter;
-  /* border:1px solid black; */
   text-align: left;
+  transition: box-shadow 1s;
 }
 
 .dropdown_top:hover{
