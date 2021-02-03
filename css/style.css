@@ -155,30 +155,30 @@ nav{
 .nav_bottom_right{
   float: right;
   height: 60px;
-  line-height: 60px;
 }
 
 .nav_bottom_right ul li{
   display: inline-block;
 }
 
-.nav_bottom_right ul li:first-of-type:hover .software_dropdown{
+.nav_bottom_right ul li:first-of-type:hover .software_menu{
   display: block;
 }
 
-.nav_bottom_right ul li a{
+.nav_bottom_right ul li > a{
   text-decoration: none;
   color: black;
   margin-left: 30px;
+  line-height: 60px;
 }
 
-.nav_bottom_right ul li i{
+.nav_bottom_right ul li .fa-angle-down{
   margin-left: 10px;
 }
 
 
 /* COSTRUZIONE DEL DROPDOWN MENU */
-.software_dropdown{
+.software_menu{
   width: 900px;
   height: 400px;
   border:1px solid black;
@@ -189,15 +189,44 @@ nav{
   z-index: 999;
 }
 
-.dropdown h4{
-  font-weight:normal;
+.dropdown_top, .dropdown_bottom{
+  padding: 10px;
 }
 
-.software_dropdown .dropdown{
+.dropdown h4{
+  font-weight:normal;
+  margin: 10px 0;
+}
+
+.dropdown a{
+  text-decoration: none;
+  color: #0091ae;
+  font-weight:400;
+}
+
+.dropdown h4 .fa-poll, .fa-mug-hot, .fa-salesforce, .fa-tasks{
+  font-size: 25px;
+  color: #ff7a59;
+  margin-right: 5px;
+}
+
+.dropdown.center .dropdown_text{
+  margin-left: 23px;
+}
+
+.dropdown.right .dropdown_text{
+  margin-left: 23px;
+}
+
+.software_menu .dropdown_text{
+  font-size: 15px;
+}
+
+.software_menu .dropdown{
   float: left;
 }
 
-.software_dropdown .dropdown.left{
+.software_menu .dropdown.left{
   text-align: left;
   width: 25%;
   height: 100%;
@@ -205,7 +234,7 @@ nav{
   padding: 10px;
 }
 
-.software_dropdown .dropdown.center, .dropdown.right{
+.software_menu .dropdown.center, .dropdown.right{
   width: calc((100% - 25%) / 2);
   height: 100%;
   border:1px solid black;
@@ -217,14 +246,17 @@ nav{
   width: 90%;
   height: calc(50% - 40px);
   margin:20px auto;
-  line-height: 16px;
   font-weight: lighter;
-  border:1px solid black;
+  /* border:1px solid black; */
   text-align: left;
 }
 
-.dropdown_text > a{
-  margin-left: none;
+.dropdown_top:hover{
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.dropdown_bottom:hover{
+  box-shadow: 5px 10px 18px #888888;
 }
 
 /* JUMBOTRON INSTRUCTION ------------------------------------------*/
